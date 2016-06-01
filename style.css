@@ -56,10 +56,14 @@ img {
     padding-top: 0;
 }
 
-.footer p{
+.footer p {
     font-size: 1.3rem;
 }
 
+.footer a {
+    color: #606c76;
+    text-decoration: underline;
+}
 
 /* Navbar
 // –––––––––––––––––––––––––––––––––––––––––––––––––– */
