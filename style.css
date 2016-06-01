@@ -86,11 +86,6 @@ img {
     width: 100%;
 }
 
-.navigation .img {
-    position: relative;
-    top: .3rem;
-    height: 2.0rem;
-}
 .navigation .title,
 .navigation-title {
     color: #606c76;
@@ -103,7 +98,15 @@ img {
     text-decoration: none;
 }
 
+.navigation-title img.img {
+    vertical-align: middle;
+    margin-top: -6px;
+}
 
+.navigation-title h1.title {
+    line-height: 40px;
+    margin-bottom: 0;
+}
 
 .panel{
     color: white;
