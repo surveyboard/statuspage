@@ -47,7 +47,7 @@ function render() {
         issue.severity = "";
         issue.affectedSystems = [];
         issue.updates = [];
-        issue.created_at = new Date(issue.created_at);
+        issue.created_at = moment.tz(issue.created_at, moment.tz.guess()).format('LLLL');
         issue.labels.forEach(function (label) {
             if (severityLabels[label.color] != undefined) {
                 issue.severity = severityLabels[label.color];

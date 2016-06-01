@@ -91,6 +91,8 @@
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="mustache.min.js"></script>
+<script src="moment.min.js"></script>
+<script src="moment-timezone.min.js"></script>
 <script src="lockr.js"></script>
 <script src="script.js"></script>
 <script type="text/javascript">
@@ -98,7 +100,7 @@
   var config = {"repo": "surveyboard/statuspage", "collaborators": ['wpottier'], "v": "1.0alpha"};
 
   render();
-  setInterval(render, 10000);
+  setInterval(render, 60000);
 
 </script>
 
