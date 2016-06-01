@@ -116,7 +116,7 @@ img {
     color: white;
     padding: 20px;
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 200;
     border-radius: .5rem;
     margin-bottom: 20px;
 }
@@ -201,7 +201,7 @@ h4{
     color: white;
     padding: 0.4rem 0.6rem;
     font-size: 1.5rem;
-    font-weight:bold;
+    font-weight: 100;
     margin-left: .5rem;
 }
 
@@ -212,7 +212,7 @@ h4{
 
 .incident .date{
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .spinner {
