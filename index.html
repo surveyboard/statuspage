@@ -10,9 +10,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" href="milligram.min.css">
   <link rel="stylesheet" href="style.css">
-  {# upload your own favicon.png to the root of your repo and replace with href="favicon.png" #}
-  <link rel="icon"
-        href="https://raw.githubusercontent.com/pyupio/statuspage/master/template/favicon.png">
+  <link rel="icon" href="favicon.png">
 </head>
 <body>
 
@@ -22,9 +20,7 @@
     <section class="container">
       <a class="navigation-title" href="">
 
-        <img class="img"
-             src="https://raw.githubusercontent.com/pyupio/statuspage/master/template/logo.png"
-             height="30">
+        <img class="img" src="logo.png" height="30">
         <h1 class="title">Status</h1>
         <div id="load-indicator" style="float: right;"><div class="spinner"></div></div>
       </a>
@@ -38,7 +34,7 @@
 
     {{#panels.0}}
       {{#panels}}
-      <div class="panel {{ status }}">
+      <div class="panel {{ status }}"
       {{ status }} on {{#systems}}{{.}}{{/systems}}.
       </div>
       {{/panels}}
@@ -89,8 +85,7 @@
   <footer class="footer">
     <section class="container">
       <hr/>
-      <p>Status page hosted by GitHub, generated with <a
-              href="https://github.com/pyupio/statuspage">pyupio/statuspage</a></p>
+      <p><a href="https://www.surveyboard.cc">Surveyboard.cc</a></p>
     </section>
   </footer>
 
@@ -101,7 +96,7 @@
 <script src="script.js"></script>
 <script type="text/javascript">
 
-  var config = {"repo": "jayfk/status.pyup.io", "collaborators": ['jayfk'], "v": "0.3pre"};
+  var config = {"repo": "surveyboard/statuspage", "collaborators": ['wpottier'], "v": "1.0alpha"};
 
   render();
   setInterval(render, 10000);
