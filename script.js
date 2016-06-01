@@ -56,7 +56,7 @@ function render() {
             }
         });
 
-        // make sure that the isse has
+        // make sure that the issue has
         if(issue.affectedSystems.length > 0 && // a system label
             issue.severity != undefined && // a severity label
             issue.user.login.indexOf(config.collaborators) != -1 // is created by a collaborator
